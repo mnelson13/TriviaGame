@@ -1,0 +1,45 @@
+body {
+    background-color: #fdd814 !important;
+}
+
+#triviaCard {
+    background-color: #ffffff;
+    min-height: 400px;
+    border: inset #bdb6b6 5px;
+    border-radius: 20px;
+}
+
+#timeRemaining,
+#question {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.options,
+#message,
+#correctAnswer,
+#results,
+#startOver {
+    font-size: 25px;
+}
+
+.options, 
+#startOver {
+    background-color: #bdb6b6;
+    color: #fdd814;
+    font-weight: bold;
+    /* border-radius: 25px; */
+}
+
+
+.options:hover,
+#startOver:hover {
+    background-color: #fdd814;
+    color: #ffffff;
+    border-radius: 25px;
+
+}
+
+#image {
+    margin-bottom: 20px;
+}
