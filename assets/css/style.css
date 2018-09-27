@@ -1,5 +1,9 @@
 body {
-    background-color: #fdd814 !important;
+    background-color: #fdcf03 !important;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Archivo Black', sans-serif !important;
 }
 
 #triviaCard {
@@ -10,33 +14,43 @@ body {
 }
 
 #timeRemaining,
-#question {
+#question,
+#message,
+#finished {
     font-size: 30px;
     margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .options,
-#message,
 #correctAnswer,
-#results,
+#scores,
 #startOver {
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#answerCounter {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .options, 
 #startOver {
     background-color: #bdb6b6;
-    color: #fdd814;
+    color: #fdcf03;
     font-weight: bold;
+    margin: 10px;
     /* border-radius: 25px; */
 }
 
 
 .options:hover,
 #startOver:hover {
-    background-color: #fdd814;
+    background-color: #fdcf03;
     color: #ffffff;
     border-radius: 25px;
+    margin: 10px;
 
 }
 
