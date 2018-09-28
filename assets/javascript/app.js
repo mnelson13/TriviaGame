@@ -170,7 +170,7 @@ function answerPage(message, correctAnswer, image) {
     //displays a message, states if you were wrong or correct, shows correct answer if wrong, and displays image
     $("#message").html(message);
     $("#correctAnswer").html(correctAnswer);
-    $("#image").html('<img class="img-fluid" src=' + image + ' >');
+    $("#image").html('<img class="img-fluid img-thumbnail" src=' + image + ' >');
 
     //function to count down to next question
     function decrementAnswerPage() {
